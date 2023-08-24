@@ -8,4 +8,5 @@ const server = http.createServer((req, res) => {
 // Specify a port to listne
 server.listen(3100, () => {
   console.log("Server is listening on port 3100");
+  console.log("HelloWorld");
 });
